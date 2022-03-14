@@ -17,6 +17,7 @@ module.exports = {
     "no-param-reassign": 0,
     "linebreak-style": 0,
     "react/jsx-props-no-spreading": 0,
+    "import/no-extraneous-dependencies": 0,
     "react-hooks/exhaustive-deps": "warn",
     "@typescript-eslint/no-explicit-any": ["error", { "ignoreRestArgs": false }],
     "prefer-destructuring": ["error", {"object": true, "array": false}],
