@@ -6,7 +6,7 @@ For projects using Typescript. Therefore, the plugin uses the [@typescript-eslin
 To work correctly, you need to install the required dependencies::
 
 ```sh
-npm i -D @eslint-avv/eslint-plugin eslint eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks eslint-config-airbnb eslint-config-airbnb-typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin
+npm i -D @avv/eslint-plugin eslint eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks eslint-config-airbnb eslint-config-airbnb-typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
 
 #### To view required dependencies:
@@ -20,10 +20,10 @@ npm info "@avv/eslint-plugin@latest" peerDependencies
 ```json
 {
   "plugins": [
-    "@eslint-avv"
+    "@avv"
   ],
   "extends": [
-    "plugin:@eslint-avv/typescript"
+    "plugin:@avv/typescript"
   ]
 }
 ```

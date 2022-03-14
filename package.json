@@ -1,15 +1,12 @@
 {
-  "name": "@eslint-avv/eslint-plugin",
-  "version": "1.0.0",
+  "name": "@avv/eslint-plugin",
+  "version": "1.1.0",
   "description": "eslint-plugin for projects using typescript",
   "main": "src/index.js",
-  "homepage": "https://github.com/varbachakov/eslint-plugin-avv",
+  "homepage": "https://github.com/varbachakov/eslint-typescript",
   "repository": {
     "type": "git",
-    "url": "git@github.com:varbachakov/eslint-plugin-avv.git"
-  },
-  "publishConfig": {
-    "@varbachakov:registry": "https://npm.pkg.github.com"
+    "url": "git@github.com:varbachakov/eslint-typescript.git"
   },
   "keywords": [
     "avv",
