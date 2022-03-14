@@ -8,6 +8,9 @@
     "type": "git",
     "url": "git@github.com:varbachakov/eslint-plugin-avv.git"
   },
+  "publishConfig": {
+    "@varbachakov:registry": "https://npm.pkg.github.com"
+  },
   "keywords": [
     "avv",
     "eslint",
