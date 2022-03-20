@@ -36,3 +36,10 @@ npm info "@avv/eslint-plugin@latest" peerDependencies
   }
 }
 ```
+
+##### Note: By default, ```js``` and ```jsx``` files are ignored. To change this setting override:
+```json
+{
+  "ignorePatterns": ["*.js", "*.jsx"]
+}
+```
