@@ -29,10 +29,11 @@ npm info "@avv/eslint-plugin@latest" peerDependencies
 ```
 
 ##### Note: Make sure that ```parserOptions``` uses ```tsconfig``` of the project:
+cc
+
+##### Note: By default, ```js``` and ```jsx``` files are ignored. To change this setting override:
 ```json
 {
-  "parserOptions": {
-    "project": ["./tsconfig.json"]
-  }
+  "ignorePatterns": ["*.js", "*.jsx"]
 }
 ```

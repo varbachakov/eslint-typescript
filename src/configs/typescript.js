@@ -10,6 +10,7 @@ module.exports = {
     "airbnb/hooks",
     "airbnb-typescript"
   ],
+  ignorePatterns: ["*.js", "*.jsx"],
   rules: {
     "react/react-in-jsx-scope": 0,
     "import/prefer-default-export": 0,
@@ -18,6 +19,7 @@ module.exports = {
     "linebreak-style": 0,
     "react/jsx-props-no-spreading": 0,
     "import/no-extraneous-dependencies": 0,
+    "react/button-has-type": 0,
     "react-hooks/exhaustive-deps": "warn",
     "@typescript-eslint/no-explicit-any": ["error", { "ignoreRestArgs": false }],
     "prefer-destructuring": ["error", {"object": true, "array": false}],
