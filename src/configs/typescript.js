@@ -10,7 +10,7 @@ module.exports = {
     "airbnb/hooks",
     "airbnb-typescript"
   ],
-  ignorePatterns: ["*.js", "*.jsx"],
+  ignorePatterns: ["*.js", "*.jsx", "*.d.ts"],
   rules: {
     "react/react-in-jsx-scope": 0,
     "import/prefer-default-export": 0,
