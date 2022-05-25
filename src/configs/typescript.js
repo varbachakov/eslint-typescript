@@ -21,11 +21,12 @@ module.exports = {
     "import/no-extraneous-dependencies": 0,
     "react/button-has-type": 0,
     "react/prop-types": 0,
+    "no-underscore-dangle": 0,
     "react-hooks/exhaustive-deps": "warn",
     "@typescript-eslint/no-explicit-any": ["error", { "ignoreRestArgs": false }],
     "prefer-destructuring": ["error", {"object": true, "array": false}],
     "react/jsx-no-useless-fragment": ["error", {"allowExpressions":  true}],
-    "no-console": ["error", { "allow": ["warn", "error"] }]
+    "no-console": ["error", { "allow": ["warn", "error", "info"] }]
   },
   settings: {
     react: {
